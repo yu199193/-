@@ -3,7 +3,7 @@ html {
 }
 body.signin {
 	height:auto;
-	background:url(../img/login-background.jpg) no-repeat center fixed;
+	background:url(../img/cegz.jpg) no-repeat center fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -85,7 +85,7 @@ body.signin {
 }
 }
 /*
-登录界面check样式
+鐧诲綍鐣岄潰check鏍峰紡
 */
 .checkbox-custom {
     position: relative;
@@ -94,10 +94,10 @@ body.signin {
     display: inline-block;
 }
 /*
-将初始的checkbox的样式改变
+灏嗗垵濮嬬殑checkbox鐨勬牱寮忔敼鍙�
 */
 .checkbox-custom input[type="checkbox"] {
-    opacity: 0; /*将初始的checkbox隐藏起来*/
+    opacity: 0; /*灏嗗垵濮嬬殑checkbox闅愯棌璧锋潵*/
     position: absolute;
     cursor: pointer;
     z-index: 2;
@@ -106,7 +106,7 @@ body.signin {
     left: 3px;
 }
 /*
-设计新的checkbox，位置
+璁捐鏂扮殑checkbox锛屼綅缃�
 */
 .checkbox-custom label:before {
     content: '';
@@ -122,7 +122,7 @@ body.signin {
     background: #fff;
 }
 /*
-点击初始的checkbox，将新的checkbox关联起来
+鐐瑰嚮鍒濆鐨刢heckbox锛屽皢鏂扮殑checkbox鍏宠仈璧锋潵
 */
 .checkbox-custom input[type="checkbox"]:checked +label:after {
     position: absolute;
@@ -141,7 +141,7 @@ body.signin {
 .checkbox-custom label {
     cursor: pointer;
     line-height: 1.2;
-    font-weight: normal; /*改变了rememberme的字体*/
+    font-weight: normal; /*鏀瑰彉浜唕ememberme鐨勫瓧浣�*/
     margin-bottom: 0;
     text-align: left;
 }
